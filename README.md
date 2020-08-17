@@ -39,7 +39,7 @@ function getSomething(callback)
 //some code
 }
 
-A higher order function is a function that holds another function inside. The inner function can be executing by declaring the higher order function as a variable and then invoking this variable as a function.
+A higher order function is a function that holds another function inside. The inner function can be executed by declaring the higher order function as a variable and then invoking this variable as a function.
 
 function outerFunction()
 {
@@ -55,12 +55,12 @@ Closure is the ability of a function to use variables defined outside its scope 
 
 4. Describe the four rules of the 'this' keyword.
 
-1. Global scope, if "this" is not bounded to a function then it refers to the global console or window object scope.
-1. Implicit Binding, If "this" is used in a function then it refers to the object that is invoking that function.
-1. New Binding, "this" is used in creator functions to initialize the object with the argument data passed to it.
-1. Explicit Binding, "this" keyword is also used with constructor functions in the call or apply methods to bind an object with another one. In other words the new object gets all the function attributes of the original object.
+-Global scope, if "this" is not bounded to a function then it refers to the global console or window object scope.
+-Implicit Binding, If "this" is used in a function then it refers to the object that is invoking that function.
+-New Binding, "this" is used in creator functions to initialize the object with the argument data passed to it.
+-Explicit Binding, "this" keyword is also used with constructor functions in the call or apply methods to bind an object with another one. In other words the new object gets all the function attributes of the original object.
 
-1. Why do we need super() in an extended class?
+4. Why do we need super() in an extended class?
 
 super is used to bind the child to the parent object allowing the child to inherit the properties and methods of the parent object.
 
